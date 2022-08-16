@@ -5,86 +5,176 @@
     <title>My Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=display-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <legend>
+   <div class="container">
+      <section class="pimg">
+        <!-- <div> <img src="./profile pic.jpg" /></div> -->
+      </section>
+    <section class="sub-title">
+      <nav>
         <h1>Marvann Covington</h1>
-        <nav>
             <ul>
                 <li><a href="about-me">About Me</a></li>
                 <li><a href="work">Work</a></li>
                 <li><a href="contact-me">Contact Me</a></li>
-                <li><a href="resume">Resume</a></li>
             </ul>
-        </nav>
-    </legend>
+      </nav>
+  
+      <h2>Codish Developer</h2>
+    </section>
+  
+    <main class="wrapper">
+        <h2 class="about-title">About Me</h2>
+       
+        <p class="about-text">
+           Student Web Develpoer at Rutgers Boot Camp. Looking to switch career path
+           I love coding, and would like to explore the possibilities.
+           I am patient and would love to see the new world of coding. 
+        </p>
+        
+        
+      <!--Works-->
+        <h2 class="work-title">Work</h2>
+        <section class="work-details">
 
-    <section class="details">
-        <div class="portfolio">
-            <img src="/profile pic.jpg" />
-            <div class="portfolio-detail">
-                <h2>Background</h2>
-                <h3>Codish Developer</h3>
-                <p>Accounting and Finance professional</p>
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="covingtonmarvann@gmail.com     " />
-                </form>
+          <section>
+          <div class="cards">
+            <div class="card">
+                <header>Run Buddy</header>
+                <a href="https://cmarvann.github.io/Runn-Buddy/"><img src="https://pbs.twimg.com/media/FYHJNNiXoAE9fSi?format=jpg&name=4096x4096" alt="#" /></a>
+                <p>Advance CSS</p>
+            </div>
+            
+            <div class="card">
+                <header>Password Generator</header>
+                <a href="https://cmarvann.github.io/CodishPassword-Generator/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZx9L4Eg1zV9PkFcF3REHVpabdE8msKheRA&usqp=CAU" alt="#" /></a>
+                <p>Advance CSS, Javascript</p>
+            </div>
+            
+                <div class="card">
+                <header>Robot Gladiator</header>
+                <a href="https://thumbs.dreamstime.com/b/mega-black-robot-super-drone-white-background-will-put-some-fun-yours-creations-d-illustration-143954302.jpg/"><img src="https://thumbs.dreamstime.com/b/mega-black-robot-super-drone-white-background-will-put-some-fun-yours-creations-d-illustration-143954302.jpg" alt ="#" /></a>
+                <p>Advance CSS, Javascript</p>
+            </div>
+            
+            <div class="card">
+                <header>Code Quizer</header>
+                <a href="https://github.com/cmarvann/BootCamp-Code-Quizer/settings/pages"><img src=" https://images.unsplash.com/photo-1450704944629-6a65f6810cf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RyaXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt ="#" /></a>
+                <p>Web Api</p>
+            </div>
+            <div class="card">
+                <header>Taskinator</header>
+                <img src="https://via.placeholder.com/150" alt="4thP" />
+                <p>webApi</p>
+            </div>
+            <div class="card">
+                <header>Work Day Scheduler</header>
+                <img src="https://via.placeholder.com/150" alt="5thC" />
+
+                <p>Third party api</p>
+            </div>
+            <div class="card">
+                <header>Taskmaster Pro</header>
+                <img src="https://via.placeholder.com/150" alt="5thP" />
+                <p>Third party api</p>
+            </div>
+            <div class="card">
+                <header>Weather App</header>
+                <a href="https://cmarvann.github.io/weather-dashboard/"> <img src="http://store-images.s-microsoft.com/image/apps.10595.14397430983184912.cfdf6f70-0a34-4999-b494-936559d822c3.7355576f-baf9-4be3-8b34-27bdc6ac1bd2" alt="#" /></a>
+                <p>Server sied api</p>
+            </div>
+
+            <div class="card">
+                <header>Git it Done</header>
+                <img src="https://via.placeholder.com/150" alt="6thP" />
+                <p>ServerSideApi</p>
+            </div>
+          <div class="card">
+                <header>DND Caracter Cards</header>
+                <a href="https://github.com/cmarvann/Group2-Project1/settings/pages"><img src=" https://logos-world.net/wp-content/uploads/2021/12/DnD-Emblem.png" alt ="#" /></a>
+                <p>Javascript/ServerSideApi</p>
+            </div>
+            <div class="card">
+                <header>Professional README Generator</header>
+                <img src="https://via.placeholder.com/150" alt="9thC" />
+                <p>Nodejs</p>
+            </div>
+            <div class="card">
+                <header>Jest Another RPM</header>
+                <img src="https://via.placeholder.com/150" alt="10thP" />
+                <p>Nodejs</p>
+            </div>
+            <div class="card">
+                <header>Team Profile Generator</header>
+                <img src="https://via.placeholder.com/150" alt="10thC" />
+                <p>Nodejs</p>
+            </div>
+            <div class="card">
+                <header>Zookeeper</header>
+                <img src="https://via.placeholder.com/150" alt="11thP" />
+                <p>Nodejs</p>
+            </div>
+            <div class="card">
+                <header>Note Taker</header>
+                <img src="https://via.placeholder.com/150" alt="11thC" />
+                <p>Nodejs</p>
+            </div>
+            <div class="card">
+                <header>HrManager</header>
+                <img src="https://via.placeholder.com/150" alt="11thC" />
+                <p>Mysql</p>
+            </div>
+            <div class="card">
+                <header>U Develop it</header>
+                <img src="https://via.placeholder.com/150" alt="12thP" />
+                <p>Mysql</p>
+            </div>
+            <div class="card">
+                <header>ORM</header>
+                <img src="https://via.placeholder.com/150" alt="13thP" />
+                <p>Nodejs/Sequelize</p>
+            </div>
+            <div class="card">
+                <header>Just Tech News</header>
+                <img src="https://via.placeholder.com/150" alt="13thC" />
+                <p>Sequelize</p>
+            </div>
+            <div class="card">
+                <header>MVC</header>
+                <img src="https://via.placeholder.com/150" alt="14thP" />
+                <p>Nodejs/Sequelize</p>
+            </div>
+            <div class="card">
+                <header>Codish Blog</header>
+                <img src="https://via.placeholder.com/150" alt="14thC" />
+                <p>Sequelize</p>
             </div>
         </div>
-    </section>
+          </section>
 
-    <header class="project-header">
-        <div class="about-section">
-         <h4>About Me</h4>
-            <p>Student at Rutgers boot camp. Looking to switch career path</p>
-        </div>
-    </header>
-    
+      
 
-     <header class="main-header">
-      <h4>Work</h4> 
-     </header>
-
-    <main>
-     <div class="works" >
-       <section class="card">
-        <header>First Project</header>
-            <img src="https://via.placeholder.com/150" alt="first project" />
-            <p>Refactor Code</p>
-        </section>
-
-        <section class="card">
-            <header>Second Project</header>
-            <img src="https://via.placeholder.com/150" alt="second project" />
-            <p>Run Buddy</p>
-        </section>
-
-        <section class="card">
-            <header>Third Project</header>
-            <img src="https://via.placeholder.com/150" alt="third project" />
-            <p>Build Portfolio</p>
-        </section>
-
-        <section class="card">
-            <header>Fourth Project</header>
-            <img src="https://via.placeholder.com/150" alt="fourth project" />
-            <p>Building website</p>
-        </section>
-      </div>
-     </main>
-    </br>
-    <footer>
-      <h4>Contact Me</h4>
-      <div class="contact-me">
-        <a href="https://github.com/<user>">Github</a>
-        <a href="https://Linkedin.com/in/<user>">Linkedin</a>
-        <a href="https://Twitter.com/user">Twitter</a>
+          </section>
+          <h2 class="content-title">Contact:</h2>
+          <section class="contact-info">
+                <a href="covingtonmarvann@gmail.com/">covingtonmarvann@gmail.com</a>
+                <a href="https://github.com/>">Github</a>
+                <a href="https://Linkedin.com/in/>">Linkedin</a>
+                <a href="https://Twitter.com/">Twitter</a>
+             
+          </section>
+      </main>
+      <footer>
+        <p>BootCamp 2022,  Student Bio </p>
+        </footer>
      </div>
-  </footer>
- </body>
-</html>
+   </body>
+  </html>
+             
 
 
 
