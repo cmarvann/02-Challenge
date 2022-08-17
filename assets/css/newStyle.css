@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav li :hover{
+    background-color: lime;
+}
+
+.sub-title{
+    /* background-color: blue; */
+    text-align: end;
+    background-color: lightcoral;
+}
+
+.about-title{
+    grid-column: 1/2;
+}
+
+.about-text{
+    grid-column: 2/3;
+}
+
+.work-title{
+    grid-column: 1/2;
+}
+
+.work-details{
+    grid-column: 2/3;
+}
+
+.contact-title{
+    grid-column: 1/2;
+}
+
+.contact-info{
+    grid-column: 2/3;
+    font-size: x-large;
+    margin-top: 10px;
+}
