@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box; 
 }
@@ -101,6 +102,211 @@ nav li :hover{
   grid-column: 2/3;
   font-size: x-large;
   margin-top: 10px;
+=======
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 235, 222);
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav li a{
+    color: rgb(34, 32, 32);
+    padding: 10px 15px;
+    margin-right: 8px;
+
+}
+
+nav li :hover{
+    background-color: burlywood;
+}
+
+nav h1 {
+    font-size: 32px;
+    padding: 5px;
+    margin: 0;
+}
+
+.sub-title{
+    /* background-color: blue; */
+    text-align: end;
+    background-color: rgb(245, 235, 222);
+}
+
+.about-title{
+    grid-column: 1/2;
+    font-size: 46px;
+    margin-top: 8px;
+    background-color: rgb(250, 251, 253);
+}
+
+.about-text{
+    grid-column: 2/3;
+    margin-top: 20px;
+    font-size: 22px;
+    background-color: rgb(250, 251, 253);
+}
+
+
+.work-title{
+    grid-column: 1/2;
+    font-size: 46px;
+    background-color: rgb(250, 251, 253);
+}
+
+
+.work-details{
+    grid-column: 2/3;
+    font-size: 14px;
+    background-color: rgb(250, 251, 253);
+}
+
+.work-details h3 {
+    font-size: 24px;
+}
+.work-details span {
+    font-size: 12px;
+}
+
+
+
+.cards {
+    /* margin: 0 auto; */
+    display: flex;
+   flex-wrap: wrap;
+   margin-top: 3%;
+   /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* margin-bottom: 20px; */
+   
+   
+}
+.card {
+    /* flex-wrap: wrap; */
+
+    flex: 1 0 0;
+    border: 5px solid black;
+    padding: 5px;
+   
+}
+header {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    padding: 5px;
+    background: aliceblue;
+    color: brown;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+
+
+.cards img {
+    width: 100%;
+    min-width: 400px;
+}
+
+.card p {
+    /* MC styling*/
+    background: aliceblue;
+    margin: 0;
+    height: 30px;
+    color: brown;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.card img {
+    width: 30%;
+    min-width: 100px;
+    
+}
+
+
+/* .flex-item {
+    border: 5px solid aqua;
+    background-color: aquamarine;
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+   */
+
+  .flex-item-1 {
+    
+    border: 5px solid blanchedalmond;
+    background-color: burlywood;
+    color: var(--tertiary);
+    width: 20%;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+  .contact-title{
+    grid-column: 1/2;
+    font-size: 34px;
+    margin-top: 10px;
+    background-color: rgb(250, 251, 253);
+}
+
+.contact-info{
+    grid-column: 2/3;
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: rgb(250, 251, 253);
+}
+
+
+.contact-info a {
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    background-color: rgb(250, 251, 253);
+}
+ 
+
+.contact-info a:hover {
+    background: bisque;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+    
+ footer {
+    background-color: rgb(245, 235, 222);
+ width: 100%;
+ height: 90px;
+ line-height: 90px;
+ text-align: center;
+ font-size: 12px;
+ font-weight: 700;
+>>>>>>> 924994a733c50d806d8409c58b5c7de68d43e124
 }
 
 @media screen and (max-width: 768px) {
@@ -109,6 +315,7 @@ nav li :hover{
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 560px) {
     main, nav {
         flex-direction: column;
@@ -128,4 +335,28 @@ nav li :hover{
        
      
 } 
+=======
+@media screen and (max-width: 768px) {
+    nav ul li {
+        /* space bet nav items */
+        width: 80px;
+    }
+}
+>>>>>>> 924994a733c50d806d8409c58b5c7de68d43e124
 
+@media screen and (max-width: 560px) {
+    nav ul li {
+        /* space bet nav items */
+        width: 60px;
+   
+}
+}
+@media screen and (max-width: 320px) {
+    nav ul li {
+        /* space bet nav items */
+        width: 30px;
+    }
+    
+        
+    
+}
