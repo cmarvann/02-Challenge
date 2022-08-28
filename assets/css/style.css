@@ -73,7 +73,8 @@ h2 {
   grid-column: 2/3;
 } */
 
-.about-title{
+
+#about-title{
     grid-column: 1/2;
     font-size: 46px;
     margin-top: 8px;
@@ -88,7 +89,7 @@ h2 {
 }
 
 
-.work-title{
+#work-title{
     grid-column: 1/2;
     font-size: 46px;
     background-color: rgb(250, 251, 253);
@@ -196,7 +197,7 @@ header {
   }
 
 
-.contact-info{
+#contact-info{
     grid-column: 2/3;
     font-size: 24px;
     margin-top: 20px;
@@ -204,14 +205,14 @@ header {
 }
 
 
-.contact-info a {
+#contact-info a {
     text-decoration: none;
     color: rgb(34, 32, 32);
     background-color: rgb(250, 251, 253);
 }
  
 
-.contact-info a:hover {
+#contact-info a:hover {
     background: bisque;
     border: 1px solid black;
     border-radius: 8px;
